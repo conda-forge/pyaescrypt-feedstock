@@ -1,5 +1,5 @@
 {% set name = "pyAesCrypt" %}
-{% set version = "6.0.0" %}
+{% set version = "6.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a26731960fb24b80bd3c77dbff781cab20e77715906699837f73c9fcb2f44a57
+  sha256: 05752551812d255976199c225db25bfbf53bd7d363f3389dfea1980bd04e53b5
 
 build:
   number: 0
